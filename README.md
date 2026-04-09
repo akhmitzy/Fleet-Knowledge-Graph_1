@@ -71,6 +71,18 @@ Vehicle V1 → send to Zone_A because:
 ✅ This is much smarter, predictive, and explainable.
 
 ---
+## 🖥️  CSV files we started (generating) with:
+
+![veehicles](pics/vehicles.png)
+
+![demand](pics/demand.png)
+
+![zones](pics/zones.png)
+
+![edges](pics/edges.png)
+
+
+---
 
 ✅ We generate 
 - vehicles.csv → 50 vehicles, realistic lat/lon, battery, status
