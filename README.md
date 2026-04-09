@@ -7,7 +7,7 @@ Wwe make with streamlit Fleet Knowledge Graph for Demand-Aware Vehicle Allocatio
 We are building a graph where:
 
 - Nodes
-- Vehicles (ID, type, capacity, location, status)
+- Vehicles (ID, type, capacity, location, status, ...)
 - Locations (depots, demand zones)
 - Trips / Orders
 - Time windows
@@ -19,7 +19,7 @@ We are building a graph where:
 - NEAR
 - PREDICTED_DEMAND
 
-This lets you answer questions like:
+This lets us answer questions like:
 
 - “Which vehicles should be reallocated right now?”
 - “Where will demand spike in 30 min?”
@@ -85,10 +85,10 @@ Vehicle V1 → send to Zone_A because:
 ---
 
 ✅ We generate 
-- vehicles.csv → 50 vehicles, realistic lat/lon, battery, status
-- zones.csv → 20 zones, regions, priorities
-- demand.csv → 600 rows (20 zones × 30 timestamps), current + predicted demand, events
-- edges.csv → Neo4j-ready: NEAR relationships + vehicle locations
+- vehicles.csv → 50 vehicles, realistic lat/lon, battery, status, type, ...
+- zones.csv → 20 zones (lat, lon), regions, priorities
+- demand.csv → zone, demand, 600 rows (20 zones × 30 timestamps), current + predicted demand, events
+- edges.csv → Neo4j-ready: NEAR relationships + vehicle locations, connected nodes, 
 
 
 ✅ What this gives us:
