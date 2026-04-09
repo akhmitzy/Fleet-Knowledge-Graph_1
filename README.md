@@ -88,7 +88,7 @@ Vehicle V1 → send to Zone_A because:
 - vehicles.csv → 50 vehicles, realistic lat/lon, battery, status, type, ...
 - zones.csv → 20 zones (lat, lon), regions, priorities
 - demand.csv → zone, demand, 600 rows (20 zones × 30 timestamps), current + predicted demand, events
-- edges.csv → Neo4j-ready: NEAR relationships + vehicle locations, connected nodes, 
+- edges.csv → Neo4j-ready: NEAR relationships + vehicle locations, connected nodes 
 
 
 ✅ What this gives us:
